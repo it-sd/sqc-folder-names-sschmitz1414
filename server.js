@@ -4,10 +4,10 @@ const newFolderName = function (folders) {
 
   if (folders.includes('New Folder')) {
     while (i <= (folders.length + 1)) {
-      if (folders.includes('New Folder (" + i + ")')) {
+      if (folders.includes('New Folder (' + i + ')')) {
         i++
       } else {
-        result = 'New Folder (" + i + ")'
+        result = 'New Folder (' + i + ')'
         break
       }
     }
